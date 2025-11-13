@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">ADJ</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+
+        <li><a href="#poetry">Poems</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Aditya Dev Joshi</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+      
+        <li><a href="#poetry" onclick="toggleMenu()">Poetry</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/myphoto.png" alt="ADJ profile picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Aditya Dev Joshi</h1>
+      <p class="section__text__p2">ASPIRING AI & DATA SCIENCE STUDENT</p>
+      <div class="btn-container">
+
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      
+    </div>
+  </section>
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="./assets/profile 2.jpg" alt="Profile picture" class="about-pic" />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+
+          <div class="details-container">
+            <img src="./assets/education.png" alt="Education icon" class="icon" />
+            <h3>Education</h3>
+            <p>B.Sc. (Hons) Computer Science with Aritficial Intelligence <br />Birmingham City University</p>
+
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            I am a BSc (Hons) Computer Science student at Sunway College, affiliated with Birmingham City University, UK, specializing in Artificial Intelligence and Data Science. I am passionate about AI, machine learning, and exploring the world of data, and I am eager to learn and grow in these fields. <br>
+             Beyond academics, I have developed leadership and teamwork skills as a past Board of Director in the Interact Clubs, where I planned and organized events and guided initiatives. I am also an active Board of Director of the Rotaract Club of Kasthamandap, serving as the Professional Development Director for the 2025/2026 year, contributing to community service projects and collaborating with team members. In addition, I love writing poems, which allows me to express my thoughts, emotions, and creativity.
+          </p>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+  </section>
+
+
+  <section id="poetry">
+  <p class="section__text__p1">Read My</p>
+  <h1 class="title">Poems</h1>
+  <div class="poetry-container">
+    
+    <div class="poem">
+      <h3>अधुरो सपना </h3>
+      <pre class="poem-text">त्यो चर्को खडेरीमा सितल छायाँ जस्ती तिमि
+अनि तिम्रै त्यी आँखामा हराउँछु  म 
+यो भाग्यमा तिम्रो नाम कहि नलेखिदा पनि 
+टाढा हुन्छौ कि भन्दै डराउँछु म 
+
+तिम्रो त्यो ओठबाट जब मुस्कान देख्न पाउँछु 
+मेरो यो धड्कन आफै चल्न थाल्छ है 
+अनि जब याद आउछ कि आहिलेसम्म एक्लो छु म 
+त्यति बेला सारा शरीर बल्न थाल्छ है 
+
+केहि इच्छा पुरा हुदा एउटा इच्छा अधुरो भो 
+सपनीमै भए पनि तिमि मेरी बन्छ्यौ कि?
+अनेक आशा जाग्दा पनि निराशा नै भइरह्यो 
+सपनीमै भए पनि आफ्नो भन्छ्यौ कि
+
+जब त्यो सपनामा तिम्रै तस्बिर मात्र आउँछ 
+तब मेरो कमलो मन मैन बन्छ है 
+सपनाले सधैँ  तिमि साथमा भाको झैँ गर्छ 
+आँखा खुल्छ बिपनाले हैन भन्छ है 
+
+म त सधैं यो मुटु चुडिएको पात्र बनें 
+तिमि भने जीवनमा अगि सर्नु है
+तिम्रो सपनीमै भए पनि एउटा फुलबनें भनें
+बगैंचाको  माली जस्तै माया गर्नु है 
+
+जब यो अन्धकारमा आँखा बाट आँसु झर्छ 
+त्यहि सानो सिरानी नै खास बन्यो है
+जिन्दगिमा हरेकपल्ट एकै ठोक्कर खाईराख्दा
+यो जिउदो शरीरपनि लाश बन्यो है
+
+लाखौ प्रयास गर्दा पनि असफल नै भइरदा 
+आशले पनि आश मारि मन्द हुन्छ कि
+फेरी पनि कसैलाई यो मुटु दिने आँट गर्दा         
+अब त यो धड्कन नै बन्द हुन्छ कि
+</pre>
+    </div>
+
+    <div class="poem">
+      <h3>त्यो सपना को सहर मा लग्छु तिम्लाई</h3>
+      <pre class="poem-text">आउ न त्यो सपना को सहर मा लग्छु तिम्लाई
+जहाँ हामी दुई मात्र संगै हुनेछौं
+एउटा छुट्टै संसार हुनेछ 
+अनि मेरो मायाँ पूर्ण  हुनेछ 
+आउ न त्यो सपना को सहर मा लग्छु तिम्लाई
+
+विहानि को घाम सँगै एउटा नया सुरुवात गरौँला
+तिम्रो दुःख मा म रोउँला र सुःख मा हासैँला
+मायाँको त्यो सुमधुर सम्बन्ध गासौँला 
+अनि हामी एक अर्काकै निम्ति बाचौँला 
+आउ न त्यो सपना को सहर मा लग्छु तिम्लाई
+
+बिपना मा त म तिम्रो कहिल्यै हुन सकिन प्रिय 
+तिम्रो त्यो मुटु छुन सकिन प्रिय 
+कमसेकम सपनामा त म तिम्रो बनौला
+तिमी मेरी मात्र हौ भनौला 
+आउ न त्यो सपना को सहर मा लग्छु तिम्लाई
+
+तिमी मेरी हुन्छौ मात्र भनिहेर न प्रिय
+एकचोटी मेरी मात्र बनिहेर न प्रिय 
+तिमीलाई सधैँ सधैँ मेरी रानी भन्नेछु
+नत्र नत्र म आफुनै खरानि बन्नेछु 
+म बाँचे त केवल  तिम्रै लागि अनि तिम्रै  नाम लिएर मर्नेछु
+आउ न त्यो सपना को सहर मा लग्छु तिम्लाई
+आउ न त्यो सपना को सहर मा लग्छु तिम्लाई
+</pre>
+    </div>
+
+    <div class="poem">
+      <h3>आत्मबोध</h3>
+      <pre class="poem-text">जिन्दगि को किताबको १९ सौं पाना पल्टीसके
+ति प्रगति र उन्नति कता गए खै ?
+अनि मैले अब बल्ल यो संसार बुझ्न थाल्दा 
+आफ्नो लागि म आफै नै खराब भए है 
+
+जब मैले आफैलाई एउटा सानो प्रश्न सोधे 
+के साचि जिन्दगिको अर्थ छैन र? 
+उत्तर हैन भित्रबाट मुटु बिझ्ने वाक्य आयो 
+सुख  बिना को जिन्दगि त व्यर्थ हैन र? 
+
+बेला बेला यी आँखाहरु आफैनै भिज्न थाल्छन
+खै कतै आफैसंग हार खाएँ कि 
+धेरै संग आफ्नो  सुख दुख बाट्ने प्रयाश गर्दा 
+यो जिन्दगि को यथार्थको सार पाएँ कि 
+
+हो थाहाछ कि अब बल्ल कठिन यात्रा सुरु हुन्छ 
+तर लाखौं दुःख पिडा मनमै लुकाएँ 
+खुट्टा तान्ने धेरै छन् यहाँ आफ्नो इज्जत राख्न पाउँ
+लौन प्रभु हजुर सामु यो शिर झुकाएं
+</pre>
+    </div>
+
+  </div>
+
+  <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+</section>
+
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/insta.avif" alt="Instagram icon" class="icon contact-icon" />
+        <p><a href="https://www.instagram.com/ad1tya_j?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com/in/aditya-dev-joshi-581487298/">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+
+          <li><a href="#poetry">Poems</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2025 ADJ. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
